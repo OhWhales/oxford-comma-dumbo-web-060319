@@ -9,6 +9,7 @@ def oxford_comma(array)
   elsif array.length > 3 
   
     counter = 0;
+    fullSentence=""
     
   end 
 end
