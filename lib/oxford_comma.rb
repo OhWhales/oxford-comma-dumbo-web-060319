@@ -9,6 +9,7 @@ def oxford_comma(array)
   elsif array.length > 3 
     z=array.length-1 
     z=array[z]
+    y="and #{z}"
     
   end 
 end
