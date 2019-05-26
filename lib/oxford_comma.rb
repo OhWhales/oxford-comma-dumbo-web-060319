@@ -11,6 +11,7 @@ def oxford_comma(array)
     sentence="and "
     sentence=sentence+array[z]
     array[z]=sentence
+    return array.join(", ")
     
   end 
 end
