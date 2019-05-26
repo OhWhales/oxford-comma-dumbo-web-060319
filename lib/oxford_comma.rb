@@ -8,6 +8,7 @@ def oxford_comma(array)
     return array.join(", ")
   elsif array.length > 3 
     z=array.length-1 
+    sentence="and "
     
   end 
 end
