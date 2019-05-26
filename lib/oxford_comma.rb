@@ -7,11 +7,8 @@ def oxford_comma(array)
   elsif array.length == 1 
     return array.join(", ")
   elsif array.length > 3 
-    z=array.length-1 
-    z=array[z]
-    y="and #{z}"
-    array[z]=y 
-    return array.join(", ")
+  
+    counter = 0;
     
   end 
 end
