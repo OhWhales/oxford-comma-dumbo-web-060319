@@ -10,6 +10,7 @@ def oxford_comma(array)
     z=array.length-1 
     z=array[z]
     y="and #{z}"
+    array[z]=y
     
   end 
 end
