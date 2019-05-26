@@ -6,5 +6,7 @@ def oxford_comma(array)
     return tempSentence
   elsif array.length == 1 
     return array.join(", ")
+  elsif array.length > 3 
+    
   end 
 end
