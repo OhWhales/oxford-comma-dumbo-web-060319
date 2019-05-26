@@ -8,5 +8,6 @@ def oxford_comma(array)
     return array.join(", ")
   elsif array.length > 3 
     z=array.length-1 
+    z=array[z]
   end 
 end
