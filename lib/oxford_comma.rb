@@ -10,6 +10,7 @@ def oxford_comma(array)
     z=array.length-1 
     sentence="and "
     sentence=sentence+array[z]
+    array[z]=sentence
     
   end 
 end
