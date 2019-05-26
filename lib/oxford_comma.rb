@@ -7,11 +7,7 @@ def oxford_comma(array)
   elsif array.length == 1 
     return array.join(", ")
   elsif array.length > 3 
-  
-    counter = 0;
-    fullSentence=""
-    while (counter < array.size)
-      fullSentence=fullSentence+
+    z=array.length-1 
     
   end 
 end
