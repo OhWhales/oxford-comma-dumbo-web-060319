@@ -10,6 +10,8 @@ def oxford_comma(array)
   
     counter = 0;
     fullSentence=""
+    while (counter < array.size)
+      fullSentence=fullSentence+
     
   end 
 end
