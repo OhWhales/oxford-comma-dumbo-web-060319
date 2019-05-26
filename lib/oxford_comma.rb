@@ -6,11 +6,5 @@ def oxford_comma(array)
     return tempSentence
   elsif array.length == 1 
     return array.join(", ")
-  else 
-    z= array.last 
-    tempSentence = "and "
-    tempSentence = tempSentence + z 
-    array.last = tempSentence
-    return array.join(", ")
-  end 
+
 end
